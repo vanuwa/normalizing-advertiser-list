@@ -1,0 +1,19 @@
+{
+  "name": "normalizing-advertiser-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js | bunyan",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Kebal",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/bigquery": "^6.1.0",
+    "bunyan": "^1.8.15",
+    "config": "^3.3.9",
+    "js-yaml": "^4.1.0",
+    "uuid": "^9.0.0"
+  }
+}

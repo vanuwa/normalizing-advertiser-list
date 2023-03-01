@@ -1,0 +1,3 @@
+app:
+  name: normalizing-advertiser-list
+  log_level: DEBUG
